@@ -1,16 +1,18 @@
 {% set name = "signac" %}
 {% set version = "0.6.2" %}
+{% set sha256 = "ddadc25f9b5f7ccf5a56c5575849df5bb1ddb8151bb2a822068dd777c102ef9c" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  git_rev: v{{ version }}
-  git_url: https://bitbucket.org/glotzer/signac
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://bitbucket.org/glotzer/signac/get/v{{ version }}.tar.gz
+  sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
