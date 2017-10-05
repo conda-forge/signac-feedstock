@@ -1,6 +1,6 @@
 {% set name = "signac" %}
-{% set version = "0.8.6" %}
-{% set sha256 = "e82f5326011a2e6ea0dd47abd427f3ee5d8bf380587f45256a72969697c552fd" %}
+{% set version = "0.8.7" %}
+{% set sha256 = "ed9ee5dca78ed3ed61d934759ed427c7062298039b48a1650350ebcf41012e0d" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
