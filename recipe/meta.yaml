@@ -1,6 +1,6 @@
 {% set name = "signac" %}
-{% set version = "0.8.7" %}
-{% set sha256 = "ed9ee5dca78ed3ed61d934759ed427c7062298039b48a1650350ebcf41012e0d" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "03704448ac6de68bdf8fa26ff0e01a3574dca4263c06b7564659422aa19a0193" %}
 
 package:
   name: {{ name|lower }}
