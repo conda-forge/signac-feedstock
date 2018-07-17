@@ -15,6 +15,8 @@ build:
   noarch: python
   number: 1
   script: python -m pip install --no-deps --ignore-installed .
+  entry_points:
+    - signac = signac.__main__:main
 
 requirements:
   host:
