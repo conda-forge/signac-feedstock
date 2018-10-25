@@ -1,6 +1,6 @@
 {% set name = "signac" %}
-{% set version = "0.9.3" %}
-{% set sha256 = "026a51813d0d805e9c1b19e0cfc9627bc38203c131cdf2deb67cf6d9dea0a146" %}
+{% set version = "0.9.4" %}
+{% set sha256 = "65d5f40d35a2f8e8a0d35c36644478370ec0851f51b5215318f4f913dbe2a407" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - signac = signac.__main__:main
