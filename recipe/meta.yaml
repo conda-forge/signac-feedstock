@@ -38,7 +38,7 @@ test:
     - signac.db
 
 about:
-  home: http://glotzerlab.engin.umich.edu/signac
+  home: https://signac.io
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE.txt
@@ -53,8 +53,8 @@ about:
     3.4+. There are no hard dependencies to allow painless transition into
     various environments, some extra features are available via optional
     dependencies.
-  doc_url: https://signac.readthedocs.io
-  dev_url: https://bitbucket.org/glotzer/signac
+  doc_url: https://docs.signac.io
+  dev_url: https://github.com/glotzerlab/signac
 
 extra:
   recipe-maintainers:
