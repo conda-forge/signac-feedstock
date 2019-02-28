@@ -5,7 +5,7 @@
 About signac
 ============
 
-Home: http://glotzerlab.engin.umich.edu/signac
+Home: https://signac.io
 
 Package license: BSD 3-Clause
 
