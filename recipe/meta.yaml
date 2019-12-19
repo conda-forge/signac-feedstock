@@ -1,6 +1,6 @@
 {% set name = "signac" %}
-{% set version = "1.2.0" %}
-{% set sha256 = "12d68ca551fc06238df3c39f21146ff3866eaaad3fd60101d9f845ec8ce8c805" %}
+{% set version = "1.3.0" %}
+{% set sha256 = "af5aa9e03ed976d1f2ee950b50b5a8907b31540254b79e6126ba5c7891fcf01b" %}
 
 package:
   name: {{ name|lower }}
@@ -24,10 +24,13 @@ requirements:
     - python
     - setuptools
   run:
-    - python
-    - pymongo >=3
-    - passlib
     - bcrypt
+    - deprecation >=2
+    - filelock >=3.0,==3.*
+    - packaging >=15.0
+    - passlib
+    - pymongo >=3
+    - python
 
 test:
   imports:
@@ -49,13 +52,12 @@ about:
     well-defined indexable storage layout for data and metadata.
     This makes it easier to operate on large data spaces, streamlines
     post-processing and analysis and makes data collectively accessible.
-    The implementation is in pure python and tested for versions 2.7.x and
-    3.4+. There are no hard dependencies to allow painless transition into
-    various environments, some extra features are available via optional
-    dependencies.
   doc_url: https://docs.signac.io
   dev_url: https://github.com/glotzerlab/signac
 
 extra:
   recipe-maintainers:
+    - bdice
     - csadorf
+    - mikemhenry
+    - vyasr
