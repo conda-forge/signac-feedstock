@@ -26,7 +26,7 @@ requirements:
   run:
     - bcrypt
     - deprecation >=2
-    - filelock >=3.0,==3.*
+    - filelock >=3.0,<4
     - packaging >=15.0
     - passlib
     - pymongo >=3
