@@ -15,14 +15,13 @@ build:
   noarch: python
   number: 0
   script: python -m pip install --no-deps --ignore-installed .
-  skip: true  # [py<35]
   entry_points:
     - signac = signac.__main__:main
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.5
     - setuptools
   run:
     - bcrypt
@@ -31,7 +30,7 @@ requirements:
     - packaging >=15.0
     - passlib
     - pymongo >=3
-    - python
+    - python >=3.5
 
 test:
   imports:
