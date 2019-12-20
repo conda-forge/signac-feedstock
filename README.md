@@ -14,10 +14,6 @@ data spaces. It provides a simple and robust data model to create a
 well-defined indexable storage layout for data and metadata.
 This makes it easier to operate on large data spaces, streamlines
 post-processing and analysis and makes data collectively accessible.
-The implementation is in pure python and tested for versions 2.7.x and
-3.4+. There are no hard dependencies to allow painless transition into
-various environments, some extra features are available via optional
-dependencies.
 
 
 Current build status
@@ -76,7 +72,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
@@ -125,5 +121,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bdice](https://github.com/bdice/)
 * [@csadorf](https://github.com/csadorf/)
+* [@mikemhenry](https://github.com/mikemhenry/)
+* [@vyasr](https://github.com/vyasr/)
 
