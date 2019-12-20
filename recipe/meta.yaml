@@ -15,6 +15,7 @@ build:
   noarch: python
   number: 0
   script: python -m pip install --no-deps --ignore-installed .
+  skip: true  # [py<35]
   entry_points:
     - signac = signac.__main__:main
 
