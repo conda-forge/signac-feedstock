@@ -7,13 +7,14 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Simple, extensible data management framework.
+Summary: Manage large and heterogeneous data spaces on the file system.
 
-The signac framework aids in the management of large and heterogeneous
-data spaces. It provides a simple and robust data model to create a
-well-defined indexable storage layout for data and metadata.
-This makes it easier to operate on large data spaces, streamlines
-post-processing and analysis and makes data collectively accessible.
+The signac framework helps users manage and scale file-based workflows,
+facilitating data reuse, sharing, and reproducibility. It provides a simple
+and robust data model to create a well-defined indexable storage layout for
+data and metadata. This makes it easier to operate on large data spaces,
+streamlines post-processing and analysis and makes data collectively
+accessible.
 
 
 Current build status
