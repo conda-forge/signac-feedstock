@@ -21,7 +21,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.6
     - setuptools
   run:
     - bcrypt
@@ -43,7 +43,7 @@ test:
 
 about:
   home: https://signac.io
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: Manage large and heterogeneous data spaces on the file system.
@@ -63,3 +63,4 @@ extra:
     - csadorf
     - mikemhenry
     - vyasr
+    - b-butler
