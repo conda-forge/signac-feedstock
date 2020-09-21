@@ -5,7 +5,7 @@ Home: https://signac.io
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Manage large and heterogeneous data spaces on the file system.
 
