@@ -30,7 +30,7 @@ requirements:
     - packaging >=15.0
     - passlib
     - pymongo >=3
-    - python >=3.5
+    - python >=3.6
     - tqdm >=4.10.0
 
 test:
