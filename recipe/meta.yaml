@@ -1,6 +1,6 @@
 {% set name = "signac" %}
-{% set version = "1.4.0" %}
-{% set sha256 = "c7d4635625911c17666950027228945f20441ffe2ec145fd84c728431d037b45" %}
+{% set version = "1.5.0" %}
+{% set sha256 = "f99f977be87ae98ce71a772513c34771475501f32a8524ca2bd017fea1cbd7f4" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - signac = signac.__main__:main
 
@@ -46,7 +46,7 @@ about:
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Manage large and heterogeneous data spaces on the file system.'
+  summary: Manage large and heterogeneous data spaces on the file system.
   description: |
     The signac framework helps users manage and scale file-based workflows,
     facilitating data reuse, sharing, and reproducibility. It provides a simple
