@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - signac = signac.__main__:main
 
@@ -24,12 +24,9 @@ requirements:
     - python >=3.6
     - setuptools
   run:
-    - bcrypt
     - deprecation >=2
     - filelock >=3.0,<4
     - packaging >=15.0
-    - passlib
-    - pymongo >=3
     - python >=3.6
     - tqdm >=4.10.0
 
@@ -40,6 +37,11 @@ test:
     - signac.contrib
     - signac.core
     - signac.db
+  commands:
+    - pip check
+    - signac --help
+  requires:
+    - pip
 
 about:
   home: https://signac.io
