@@ -3,11 +3,15 @@ About signac
 
 Home: https://signac.io
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/signac-feedstock/blob/master/LICENSE.txt)
 
 Summary: Manage large and heterogeneous data spaces on the file system.
+
+Development: https://github.com/glotzerlab/signac
+
+Documentation: https://docs.signac.io
 
 The signac framework helps users manage and scale file-based workflows,
 facilitating data reuse, sharing, and reproducibility. It provides a simple
@@ -122,6 +126,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@b-butler](https://github.com/b-butler/)
 * [@bdice](https://github.com/bdice/)
 * [@csadorf](https://github.com/csadorf/)
 * [@mikemhenry](https://github.com/mikemhenry/)
