@@ -1,6 +1,6 @@
 {% set name = "signac" %}
-{% set version = "1.6.0" %}
-{% set sha256 = "9ef4cc5a306a46df80d37d9c79f726e00124396649b63d6309868bc085fa700a" %}
+{% set version = "1.7.0" %}
+{% set sha256 = "a21d92c256c4f962f2c47deb3dbe57f3d6ef46bc64b68005996041b41bb267a6" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/glotzerlab/signac/archive/v{{ version }}.tar.gz
+  url: https://github.com/glotzerlab/signac/archive/{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
