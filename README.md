@@ -1,11 +1,11 @@
-About signac
-============
+About signac-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/signac-feedstock/blob/main/LICENSE.txt)
 
 Home: https://signac.io
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/signac-feedstock/blob/main/LICENSE.txt)
 
 Summary: Manage large and heterogeneous data spaces on the file system.
 
