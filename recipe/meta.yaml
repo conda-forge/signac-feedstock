@@ -21,22 +21,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
     - setuptools
   run:
-    - deprecation >=2
-    - filelock >=3.0,<4
+    - filelock >=3.0
     - packaging >=15.0
-    - python >=3.6
+    - python >=3.8
     - tqdm >=4.10.0
 
 test:
   imports:
     - signac
-    - signac.common
-    - signac.contrib
-    - signac.core
-    - signac.db
   commands:
     - pip check
     - signac --help
