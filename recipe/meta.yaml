@@ -1,6 +1,6 @@
 {% set name = "signac" %}
-{% set version = "1.8.0" %}
-{% set sha256 = "da651ac39ec8d89a5ef39a651bbcff8c6c6d8ae5af4132c3d60d2aeaa2539f18" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "d2a0481a9956464d8211e943cc800721abc59d5e7d66ae108132f6eab176fd38" %}
 
 package:
   name: {{ name|lower }}
@@ -21,22 +21,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
     - setuptools
   run:
-    - deprecation >=2
-    - filelock >=3.0,<4
+    - filelock >=3.0
     - packaging >=15.0
-    - python >=3.6
+    - python >=3.8
     - tqdm >=4.10.0
 
 test:
   imports:
     - signac
-    - signac.common
-    - signac.contrib
-    - signac.core
-    - signac.db
   commands:
     - pip check
     - signac --help
