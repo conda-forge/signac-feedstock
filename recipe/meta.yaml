@@ -1,6 +1,6 @@
 {% set name = "signac" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "d2a0481a9956464d8211e943cc800721abc59d5e7d66ae108132f6eab176fd38" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "4fd6096611c13487036bbff7cad6f8fcf7eaf2dac1d0ed560790a263501fe316" %}
 
 package:
   name: {{ name|lower }}
@@ -27,6 +27,7 @@ requirements:
     - filelock >=3.0
     - packaging >=15.0
     - python >=3.8
+    - synced_collections >=1.0.0
     - tqdm >=4.10.0
 
 test:
