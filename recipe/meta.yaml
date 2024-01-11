@@ -57,6 +57,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - cbkerr
     - joaander
     - bdice
     - csadorf
